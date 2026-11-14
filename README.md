@@ -3,43 +3,23 @@ Aditi Naiknaware, Francis Fernandez, Kenny Melvin, Chase Cabrera
 
 RL experiments for initial settlement placement and one simplified full-game setting.
 
-Recommened timeline (according to ChatGPT)
-What “success” should mean by each date
+## Enviroment Notes
+| Item | Observed |
+|---|---|
+| Catanatron version | 3.3.0 |
+| Python version | Python 3.13.0 |
+| Environment name | `catanatron/Catanatron-v0` |
 
-By November 16
-You should have:
-- a working repository;
-- an installed environment;
-- a random game;
-- environment notes;
-- a narrowed scope;
-- a progress-report draft;
-- a bibliography;
-- a clear remaining schedule.
-
-By November 23
-You should have:
-- random placement;
-- rule-based placement;
-- settlement-action identification;
-- a fixed continuation policy;
-- an evaluation script;
-- at least one learned-agent prototype or one-step learning prototype.
-
-By November 30
-You should have:
-- the main settlement results;
-- raw logs;
-- summary tables;
-- plots;
-- failure examples;
-- an explicit decision about whether the full-game extension is feasible.
-
-By December 6
-You should have:
-- a complete final report draft;
-- final figures;
-- a reproducible demonstration;
-- a description of limitations;
-- a presentation outline;
-- a clean repository.
+| Map | MINI or BASE |
+| Number of players | 1v1, 1v3, or another configuration |
+| Observation type | Vector, dictionary, or other |
+| Observation dimension | Measured dimension |
+| Action-space type | Usually discrete |
+| Total action count | Measured value |
+| Valid-action representation | Exact structure |
+| Reward range | Measured or documented |
+| Termination condition | Exact behavior |
+| Truncation condition | Exact behavior |
+| Initial placement actions | How they are encoded |
+| Baseline opponents | Available Catanatron players |
+| Known limitations | Any issues discovered |
