@@ -1,0 +1,25 @@
+{
+  "action_space": "Discrete(332)",
+  "action_space_n": "332",
+  "environment": "catanatron/Catanatron-v0",
+  "final_info": {
+    "valid_actions": [
+      331
+    ]
+  },
+  "final_reward": 0,
+  "hit_step_limit": true,
+  "initial_legal_action_count": 54,
+  "max_legal_action_count": 54,
+  "mean_legal_action_count": 4.01980198019802,
+  "min_legal_action_count": 1,
+  "observation_shape": [
+    614
+  ],
+  "observation_type": "ndarray",
+  "seed": 42,
+  "steps": 100,
+  "terminated": false,
+  "timestamp_utc": "2026-11-14T21:04:53.775759+00:00",
+  "truncated": false
+}

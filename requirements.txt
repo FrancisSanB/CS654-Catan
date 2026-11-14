@@ -1,5 +1,4 @@
-catanatron==3.2.1
-gymnasium
+catanatron[gym] @ git+https://github.com/bcollazo/catanatron.git
 stable-baselines3
 sb3-contrib
 torch
