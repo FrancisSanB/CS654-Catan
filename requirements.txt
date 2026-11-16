@@ -1,4 +1,5 @@
-catanatron[gym] @ git+https://github.com/bcollazo/catanatron.git
+# Catanatron 3.3.0, pinned so seeded games stay the same
+catanatron[gym] @ git+https://github.com/bcollazo/catanatron.git@ecf931181b9a65bb4116a2153fb78c16f1438e00
 stable-baselines3
 sb3-contrib
 torch
