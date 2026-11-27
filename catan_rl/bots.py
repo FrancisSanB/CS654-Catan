@@ -1,4 +1,5 @@
 # Baseline policies - catanatron bots and two ways of picking an opening settlment
+
 import random
 
 from catanatron.models.actions import ActionType
@@ -38,7 +39,13 @@ def random_placement(game, color, node_ids):
     return random.choice(sorted(node_ids))
 
 
-PLACEMENTS = {"rule": rule_based_placement, "random": random_placement}
+def dqn_placement(game, color, node_ids):
+    # imported lazily: dqn.py imports envs.py, which imports this file
+    from catan_rl.dqn import dqn_placement as pick
+    return pick(game, color, node_ids)
+
+
+PLACEMENTS = {"rule": rule_based_placement, "random": random_placement, "dqn": dqn_placement}
 
 
 def settlements_placed(game, color):
